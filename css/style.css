@@ -6184,9 +6184,15 @@ h6 {
   }
 }
 
-
 .blog_part .single-home-blog .card ul li span {
   margin-right: 10px;
   font-size: 12px;
 }
 
+#preloader{
+  background: #000 url(../img/preloader.gif) no-repeat center center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+}
